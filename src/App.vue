@@ -205,7 +205,7 @@ export default {
 }
 
 .l-container {
-  width: clamp(350px, 156.338px + 51.643vw, 900px);
+  width: clamp(350px, 261.972px + 23.474vw, 600px);
   margin-inline: auto;
 }
 
