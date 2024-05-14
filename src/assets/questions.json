@@ -313,23 +313,23 @@
   },
   {
     "qId": "q14",
-    "qText": "HTMLドキュメントで使用している言語を指定する属性値として正しいものを選びなさい。",
+    "qText": "HTMLドキュメントで使用している言語を日本語に指定する属性と属性値の組み合わせとして正しいものを選びなさい。",
     "options": [
       {
         "cId": "c14-01",
-        "cText": "language"
+        "cText": "lang=\"jp\""
       },
       {
         "cId": "c14-02",
-        "cText": "lang"
+        "cText": "lang=\"ja\""
       },
       {
         "cId": "c14-03",
-        "cText": "word"
+        "cText": "lang=\"japanese\""
       },
       {
         "cId": "c14-04",
-        "cText": "phrase"
+        "cText": "lang=\"japan\""
       }
     ],
     "isCorrect": "",
