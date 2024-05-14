@@ -1,0 +1,72 @@
+Q.HTML Standard において HTML の先頭に記述すべき要素として正しいものを選びなさい。
+・<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+・<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+・<!DOCTYPE html5>
+・<!DOCTYPE html>
+
+Q.以下の【】内のテキストを表示するために使用する文字実体参照の記述について正しいものを選びなさい。
+【HTMLのタグは、&nbsp;&amp;で囲みます。】
+・HTMLのタグは、&amp;&gt;で囲みます。
+・HTMLのタグは、&lt;&gt;で囲みます。
+・HTMLのタグは、&lt;&nbsp;で囲みます。
+・HTMLのタグは、&gt;&lt;で囲みます。
+
+Q.リソースが見つからないことを示すHTTPレスポンスステータスコードとして、正しいものを選びなさい。
+・301
+・401
+・403
+・404
+
+Q.HTTPSの説明として誤っているものを選びなさい。
+・HTTP通信と比較して通信負荷が高い。
+・暗号化のために認証局から証明書を取得する必要がある。
+・クライアント・サーバー間の通信内容を暗号化する。
+・HTTPSのポート番号は443である。
+
+Q.HTMLドキュメントで使用している言語を指定する属性値として正しいものを選びなさい。
+・language
+・lang
+・word
+・phrase
+
+Q.外部CSSファイルを読み込むために使用する要素として正しいものを選びなさい。
+・style
+・base
+・meta
+・link
+
+Q.リンクにマウスカーソルを合わせたときにスタイルを適用する記述として正しいものを選びなさい。
+・a:hover{ background-color: #ff0000; }
+・a:link{ background-color: #ff0000; }
+・a:active{ background-color: #ff0000; }
+・a:focus{ background-color: #ff0000; }
+
+Q.CSSの属性セレクタのうち、属性値の前方一致を表すものを選びなさい
+・[属性名 ^= "属性値"]
+・[属性名 *= "属性値"]
+・[属性名 $= "属性値"]
+・[属性名 |= "属性値"]
+
+Q.colorプロパティに設定する値として誤っているものを選びなさい。
+・coral
+・#ff7f50
+・255,128,82
+・hsl(16, 100%, 66%);
+
+Q.transformプロパティを使って要素を回転させる値として正しいものを選びなさい。
+・translateY
+・scale
+・skewX
+・rotate
+
+Q.HTML Standard で廃止されていない要素を選びなさい。
+・font
+・iframe
+・frameset
+・frame
+
+Q.input要素で電話番号入力欄を定義するためにtype属性に設定する値を選びなさい。
+・phone
+・number
+・tel
+・submit

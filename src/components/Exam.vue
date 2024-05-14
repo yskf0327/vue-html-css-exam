@@ -26,6 +26,19 @@
 <script>
 import questions from '../assets/questions.json';
 import answers from '../assets/answers.json';
+
+const QUESTION_NUM = 10;
+
+let cloneArray = [...questions];
+for (let i = cloneArray.length - 1; i >= 0; i--) {
+  let rand = Math.floor(Math.random() * (i + 1));
+  let tmp = cloneArray[i];
+  cloneArray[i] = cloneArray[rand];
+  cloneArray[rand] = tmp;
+}
+// console.log(cloneArray.slice(0, QUESTION_NUM));
+let displayQuestions = cloneArray.slice(0, QUESTION_NUM);
+
 export default {
   name: 'QuestionItem',
   props: {
@@ -33,45 +46,52 @@ export default {
   },
   data() {
     return {
-      questions: questions,
+      questions: displayQuestions,
       answers: answers,
       userAns: {},
       message: '',
-      restart: false
+      restart: false,
+      questionNum: 10,
+      tmp: ''
     }
+  },
+  computed: {
   },
   methods: {
     checkRadio(e, qindex) {
-      console.log(e.target.name + ':' + e.target.value);
-      console.log(this.questions[qindex]);
-      console.log(this.answers[e.target.name]);
-      if (this.answers[e.target.name] === e.target.value) {
+      // console.log(qindex);
+      // console.log(answers[e.target.name]);
+
+      if (answers[e.target.name] === e.target.value) {
         this.questions[qindex].isCorrect = true;
       } else {
         this.questions[qindex].isCorrect = false;
       }
-      console.log(this.questions[qindex].isCorrect);
+      // console.log(this.questions[qindex].isCorrect);
     },
     calc() {
       let questionData = JSON.parse(JSON.stringify(this.questions));
-      console.log(questionData);
+      // console.log(questionData);
       let totalNum = questionData.length;
+      // console.log(totalNum);
       let ansCnt = 0;
       for (let questionItem of questionData) {
-        console.log(questionItem.isCorrect);
+        // console.log(questionItem.isCorrect);
         if (questionItem.isCorrect) {
           ansCnt++;
         }
       }
       // let correctNum = questionData
       this.message = totalNum + '問中<span class="c-result-num">' + ansCnt + '</span>問正解です。';
-      this.checkAns();
+      this.checkAns(questionData);
       this.checkSelect();
       this.restart = true;
     },
-    checkAns() {
-      for (let ans in answers) {
-        let target = document.querySelector('#' + ans + ' [for=' + answers[ans] + ']');
+    checkAns(questionData) {
+      // console.log(questionData);
+      for (let question of questionData) {
+        // console.log('[for=' + answers[question.qId] + ']');
+        let target = document.querySelector('[for=' + answers[question.qId] + ']');
         target.classList.add('u-answer');
       }
       // console.log(JSON.parse(JSON.stringify(this.answers)));
@@ -81,7 +101,7 @@ export default {
       for (let target of selectArray) {
         target.parentElement.classList.add('u-select');
       }
-      console.log(selectArray);
+      // console.log(selectArray);
     }
   },
   created() {
@@ -175,7 +195,7 @@ h2::after {
   text-decoration: underline;
 }
 
-.c-result-msg+*{
+.c-result-msg+* {
   margin-block-start: 2rem;
 }
 </style>

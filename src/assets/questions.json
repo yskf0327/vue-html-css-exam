@@ -20,7 +20,8 @@
         "cText": "要素は7つのカテゴリに分類される。"
       }
     ],
-    "isCorrect": ""
+    "isCorrect": "",
+    "answer": "c01-03"
   },
   {
     "qId": "q02",
@@ -43,7 +44,8 @@
         "cText": "aside"
       }
     ],
-    "isCorrect": ""
+    "isCorrect": "",
+    "answer": "c02-01"
   },
   {
     "qId": "q03",
@@ -66,7 +68,8 @@
         "cText": "見出し要素のコンテンツモデルはフレージングコンテンツのみである。"
       }
     ],
-    "isCorrect": ""
+    "isCorrect": "",
+    "answer": "c03-04"
   },
   {
     "qId": "q04",
@@ -89,7 +92,8 @@
         "cText": "article要素の子要素としてmain要素を使用できる。"
       }
     ],
-    "isCorrect": ""
+    "isCorrect": "",
+    "answer": "c04-02"
   },
   {
     "qId": "q05",
@@ -112,7 +116,8 @@
         "cText": "type"
       }
     ],
-    "isCorrect": ""
+    "isCorrect": "",
+    "answer": "c05-01"
   },
   {
     "qId": "q06",
@@ -135,7 +140,8 @@
         "cText": "figure要素内にはimg要素が必要である。"
       }
     ],
-    "isCorrect": ""
+    "isCorrect": "",
+    "answer": "c06-02"
   },
   {
     "qId": "q07",
@@ -158,7 +164,8 @@
         "cText": "1つの要素に対して複数のスタイルを指定できる。"
       }
     ],
-    "isCorrect": ""
+    "isCorrect": "",
+    "answer": "c07-04"
   },
   {
     "qId": "q08",
@@ -181,7 +188,8 @@
         "cText": "div ~ p {...}"
       }
     ],
-    "isCorrect": ""
+    "isCorrect": "",
+    "answer": "c08-03"
   },
   {
     "qId": "q09",
@@ -204,7 +212,8 @@
         "cText": "vertical-align"
       }
     ],
-    "isCorrect": ""
+    "isCorrect": "",
+    "answer": "c09-02"
   },
   {
     "qId": "q10",
@@ -227,6 +236,271 @@
         "cText": "font-size : x-large"
       }
     ],
-    "isCorrect": ""
+    "isCorrect": "",
+    "answer": "c10-03"
+  },
+  {
+    "qId": "q11",
+    "qText": "HTML Standard において HTML の先頭に記述すべき要素として正しいものを選びなさい。",
+    "options": [
+      {
+        "cId": "c11-01",
+        "cText": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">"
+      },
+      {
+        "cId": "c11-02",
+        "cText": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">"
+      },
+      {
+        "cId": "c11-03",
+        "cText": "<!DOCTYPE html5>"
+      },
+      {
+        "cId": "c11-04",
+        "cText": "<!DOCTYPE html>"
+      }
+    ],
+    "isCorrect": "",
+    "answer": "c11-04"
+  },
+  {
+    "qId": "q12",
+    "qText": "リソースが見つからないことを示すHTTPレスポンスステータスコードとして、正しいものを選びなさい。",
+    "options": [
+      {
+        "cId": "c12-01",
+        "cText": "301"
+      },
+      {
+        "cId": "c12-02",
+        "cText": "401"
+      },
+      {
+        "cId": "c12-03",
+        "cText": "403"
+      },
+      {
+        "cId": "c12-04",
+        "cText": "404"
+      }
+    ],
+    "isCorrect": "",
+    "answer": "c12-04"
+  },
+  {
+    "qId": "q13",
+    "qText": "HTTPSの説明として誤っているものを選びなさい。",
+    "options": [
+      {
+        "cId": "c13-01",
+        "cText": "HTTP通信と比較して通信負荷が高い。"
+      },
+      {
+        "cId": "c13-02",
+        "cText": "暗号化のために認証局から証明書を取得する必要がある。"
+      },
+      {
+        "cId": "c13-03",
+        "cText": "クライアント・サーバー間の通信内容を暗号化する。"
+      },
+      {
+        "cId": "c13-04",
+        "cText": "HTTPSのポート番号は443である。"
+      }
+    ],
+    "isCorrect": "",
+    "answer": "c13-01"
+  },
+  {
+    "qId": "q14",
+    "qText": "HTMLドキュメントで使用している言語を指定する属性値として正しいものを選びなさい。",
+    "options": [
+      {
+        "cId": "c14-01",
+        "cText": "language"
+      },
+      {
+        "cId": "c14-02",
+        "cText": "lang"
+      },
+      {
+        "cId": "c14-03",
+        "cText": "word"
+      },
+      {
+        "cId": "c14-04",
+        "cText": "phrase"
+      }
+    ],
+    "isCorrect": "",
+    "answer": "c14-02"
+  },
+  {
+    "qId": "q15",
+    "qText": "外部CSSファイルを読み込むために使用する要素として正しいものを選びなさい。",
+    "options": [
+      {
+        "cId": "c15-01",
+        "cText": "style"
+      },
+      {
+        "cId": "c15-02",
+        "cText": "base"
+      },
+      {
+        "cId": "c15-03",
+        "cText": "meta"
+      },
+      {
+        "cId": "c15-04",
+        "cText": "link"
+      }
+    ],
+    "isCorrect": "",
+    "answer": "c15-04"
+  },
+  {
+    "qId": "q16",
+    "qText": "リンクにマウスカーソルを合わせたときにスタイルを適用する記述として正しいものを選びなさい。",
+    "options": [
+      {
+        "cId": "c16-01",
+        "cText": "a:hover{ background-color: #ff0000; }"
+      },
+      {
+        "cId": "c16-02",
+        "cText": "a:link{ background-color: #ff0000; }"
+      },
+      {
+        "cId": "c16-03",
+        "cText": "a:active{ background-color: #ff0000; }"
+      },
+      {
+        "cId": "c16-04",
+        "cText": "a:focus{ background-color: #ff0000; }"
+      }
+    ],
+    "isCorrect": "",
+    "answer": "c16-01"
+  },
+  {
+    "qId": "q17",
+    "qText": "CSSの属性セレクタのうち、属性値の前方一致を表すものを選びなさい",
+    "options": [
+      {
+        "cId": "c17-01",
+        "cText": "[属性名 ^= \"属性値\"]"
+      },
+      {
+        "cId": "c17-02",
+        "cText": "[属性名 *= \"属性値\"]"
+      },
+      {
+        "cId": "c17-03",
+        "cText": "[属性名 $= \"属性値\"]"
+      },
+      {
+        "cId": "c17-04",
+        "cText": "[属性名 |= \"属性値\"]"
+      }
+    ],
+    "isCorrect": "",
+    "answer": "c17-01"
+  },
+  {
+    "qId": "q18",
+    "qText": "colorプロパティに設定する値として誤っているものを選びなさい。",
+    "options": [
+      {
+        "cId": "c18-01",
+        "cText": "coral"
+      },
+      {
+        "cId": "c18-02",
+        "cText": "#ff7f50"
+      },
+      {
+        "cId": "c18-03",
+        "cText": "255, 128, 82"
+      },
+      {
+        "cId": "c18-04",
+        "cText": "hsl(16, 100%, 66%)"
+      }
+    ],
+    "isCorrect": "",
+    "answer": "c18-03"
+  },
+  {
+    "qId": "q19",
+    "qText": "transformプロパティを使って要素を回転させる値として正しいものを選びなさい。",
+    "options": [
+      {
+        "cId": "c19-01",
+        "cText": "translateY"
+      },
+      {
+        "cId": "c19-02",
+        "cText": "scale"
+      },
+      {
+        "cId": "c19-03",
+        "cText": "skewX"
+      },
+      {
+        "cId": "c19-04",
+        "cText": "rotate"
+      }
+    ],
+    "isCorrect": "",
+    "answer": "c19-04"
+  },
+  {
+    "qId": "q20",
+    "qText": "HTML Standard で廃止されていない要素を選びなさい。",
+    "options": [
+      {
+        "cId": "c20-01",
+        "cText": "font"
+      },
+      {
+        "cId": "c20-02",
+        "cText": "iframe"
+      },
+      {
+        "cId": "c20-03",
+        "cText": "frameset"
+      },
+      {
+        "cId": "c20-04",
+        "cText": "frame"
+      }
+    ],
+    "isCorrect": "",
+    "answer": "c20-02"
+  },
+  {
+    "qId": "q21",
+    "qText": "input要素で電話番号入力欄を定義するためにtype属性に設定する値を選びなさい。",
+    "options": [
+      {
+        "cId": "c21-01",
+        "cText": "phone"
+      },
+      {
+        "cId": "c21-02",
+        "cText": "number"
+      },
+      {
+        "cId": "c21-03",
+        "cText": "tel"
+      },
+      {
+        "cId": "c21-04",
+        "cText": "submit"
+      }
+    ],
+    "isCorrect": "",
+    "answer": "c21-03"
   }
 ]
