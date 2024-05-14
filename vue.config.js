@@ -6,4 +6,8 @@ module.exports = {
   outputDir: 'docs',
   assetsDir: './',
   publicPath: './',
+  pages:{
+    entry:'src/main.js',
+    title:'HTML/CSS確認テスト'
+  }
 }
